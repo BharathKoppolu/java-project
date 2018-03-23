@@ -11,7 +11,7 @@ pipeline{
         post
         {
                 always {
-                        archive 'dist/*.var'
+                        archive 'dist/*.war'
                 }
         }
         }
